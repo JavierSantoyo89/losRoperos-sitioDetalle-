@@ -1,0 +1,98 @@
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.divCabezal{
+    display: flex;
+    justify-content: space-between;
+
+    border: 5px solid black;
+    border-radius: 0 0 12% 12%;
+    background-color: gray;
+    opacity: .7;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+.logoCarrito{
+    width: 30px;
+    align-self: flex-end;
+}
+
+body {
+    position:relative;
+    width: 100vw; height: 100%;
+    background-image: url('https://s3-alpha-sig.figma.com/img/939e/d853/e62f49c3671023038f81ee7891ca8650?Expires=1638144000&Signature=DKlv~osR1LURDD2skYW2ZOSQdvBScY7IQnkSb8-H4QPs~59tL1rIkaRDjqFZI61MzcpL2nSk3NvapsFQgs110gXlQDPfAN1TDGVijhtfa0apI4AQmEBUbNUbhSkRLYlVr4Rco3Sp5m6uiynSJUZsMbkFtqRrkzRMYAx4DaZtQ6SeGrqMfVT0qnwQtt11SC1Fyf4O6M7F7QVqXKFDJr~-ZOyEuvEV9b8LGDofPKLZ4z4O65Y8gwa7VoDHeKi3wpiKAseyKUx3sxnmYO5HcgerXFBrsx142gvIAFpMCp55fzZglRkAFMvzVhgRqRHecdk-gSDboa58y1Pq7gkW8wv2GA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+#BtnAgreagarCarrito {
+    color: white;
+    background-color:cornflowerblue;
+    border-radius: 30%;
+}
+
+.imgProduct{
+        padding-top: 10px;
+        width: 25vw;
+        border-radius: 20%;
+    }
+
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 5px solid black;
+    
+    background-color:rgb(231, 231, 231);
+    font-size: medium;
+    color: black;
+    text-align: center;
+    width: 70vw;
+    padding: 15px;
+  
+    
+}
+
+.pieFooterPadre{
+    position:flex;
+    bottom:0px;
+    width: 100vw;
+    border: 5px solid rgb(0, 0, 0);
+    background-color:rgb(119,119,119);
+    margin-top: 10px;
+}
+
+
+.pieDePagHijo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-right: 50px;
+}
+
+.pieCentral p.pieCentral{
+    Display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: -10;
+}
+
+/*! No funciono
+.pieFooterPadre{
+    position: absolute;
+   margin-bottom: 0px;
+    align-items: center;
+    background-color: aqua;
+}*/
