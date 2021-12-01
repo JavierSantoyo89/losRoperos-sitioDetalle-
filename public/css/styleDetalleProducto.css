@@ -1,5 +1,5 @@
 
-
+/*! ----------------------- Configuracion global ----------------------- */
 *{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -7,6 +7,18 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../img/bike.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+ /*! ----------------------- Header ----------------------- */
 .divCabezal{
     display: flex;
     justify-content: space-between;
@@ -18,33 +30,20 @@
     padding-bottom: 3px;
     margin-bottom: 10px;
 }
+
 .logoCarrito{
     width: 30px;
     align-self: flex-end;
+    margin-right: 8px;
 }
 
-body {
-    position:relative;
-    width: 100vw; height: 100%;
-    background-image: url("./public/img/bike.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-
+.logoCIA{
+    width:80px; 
+    box-align:left;
 }
 
-#BtnAgreagarCarrito {
-    color: white;
-    background-color:cornflowerblue;
-    border-radius: 30%;
-}
 
-.imgProduct{
-        padding-top: 10px;
-        width: 25vw;
-        border-radius: 20%;
-    }
-
+/*! ----------------------- Main ----------------------- */
 main {
     display:flex;
     justify-content: center;
@@ -59,11 +58,24 @@ main {
     color: black;
     text-align: center;
     width: 70vw;
-    padding: 15px;
-  
-    
+    padding: 15px;    
 }
 
+.imgProduct{
+        padding-top: 10px;
+        width: 25vw;
+        border-radius: 20%;
+}
+
+#BtnAgreagarCarrito {
+    color: white;
+    background-color:cornflowerblue;
+    border-radius: 30%;
+}
+
+
+
+/*! ----------------------- Footer ----------------------- */
 .pieFooterPadre{
     position:flex;
     bottom:0px;
@@ -72,7 +84,6 @@ main {
     background-color:rgb(119,119,119);
     margin-top: 10px;
 }
-
 
 .pieDePagHijo{
     display: flex;
@@ -87,12 +98,17 @@ main {
     justify-content: center;
     margin: 0;
     padding: -10;
-}/*
+}
+
+
+
+/*! ----------------------- Media query's ----------------------- */
+
 @media screen and (max-width:380px) {
     .logoCIA{
         display: none;
     }
-}*/
+}
 
 /*! No funciono
 .pieFooterPadre{
