@@ -26,7 +26,7 @@
 body {
     position:relative;
     width: 100vw; height: 100%;
-    background-image: url('https://s3-alpha-sig.figma.com/img/939e/d853/e62f49c3671023038f81ee7891ca8650?Expires=1638144000&Signature=DKlv~osR1LURDD2skYW2ZOSQdvBScY7IQnkSb8-H4QPs~59tL1rIkaRDjqFZI61MzcpL2nSk3NvapsFQgs110gXlQDPfAN1TDGVijhtfa0apI4AQmEBUbNUbhSkRLYlVr4Rco3Sp5m6uiynSJUZsMbkFtqRrkzRMYAx4DaZtQ6SeGrqMfVT0qnwQtt11SC1Fyf4O6M7F7QVqXKFDJr~-ZOyEuvEV9b8LGDofPKLZ4z4O65Y8gwa7VoDHeKi3wpiKAseyKUx3sxnmYO5HcgerXFBrsx142gvIAFpMCp55fzZglRkAFMvzVhgRqRHecdk-gSDboa58y1Pq7gkW8wv2GA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA'); 
+    background-image: url("./public/img/bike.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -87,7 +87,12 @@ main {
     justify-content: center;
     margin: 0;
     padding: -10;
-}
+}/*
+@media screen and (max-width:380px) {
+    .logoCIA{
+        display: none;
+    }
+}*/
 
 /*! No funciono
 .pieFooterPadre{
